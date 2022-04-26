@@ -1,0 +1,49 @@
+# SERVER PORT #
+server:
+  port: 8091
+
+spring:
+  #  cache:
+  #    type: none
+  logstash:
+    server: 10.10.1.44
+    port: 4560
+  datasource:
+    #  driver-class-name: org.postgresql.Driver
+    #   url: jdbc:postgresql://10.10.1.47:5432/gwdev
+  #  username: developer
+    #  password: SAfpQ7QR
+  #    url: jdbc:postgresql://localhost:5432/localgwdb
+  #    username: postgres
+  #    password: 123456
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+debug: false
+
+
+ohurl:
+  solr:
+    baseurl: http://ozwscdev8.ozdilekteyim.com:3737/search/resources/store/
+  wsc:
+    baseurl: https://ozwscdev8.ozdilekteyim.com/wcs/resources/store/
+  prefixBaseUrl: https://api.c0fvjcwqut-ozdilekal1-d1-public.model-t.cc.commerce.ondemand.com/
+  restVersion: rest/v2/
+  tokenEndpoint: authorizationserver/oauth/
+  baseSite: https://api.c0fvjcwqut-ozdilekal1-d1-public.model-t.cc.commerce.ondemand.com/rest/v2/
+  baseSiteWithoutRest: https://api.c0fvjcwqut-ozdilekal1-d1-public.model-t.cc.commerce.ondemand.com
+  sapSiteUrl: https://jsapps.c0fvjcwqut-ozdilekal1-d1-public.model-t.cc.commerce.ondemand.com
+  webviewurl:
+    baseurl: https://ozwscdev8.ozdilekteyim.com/webapp/wcs/stores/servlet/redirectHybridView?
+    contactUsUrl: https://ozwscdev8.ozdilekteyim.com/shop/tr/ContactUsView?
+  langId: -13
+  personalinfo: /person/get_personal_info
+  sizeTableUrl: https://ozwscdev8.ozdilekteyim.com/webapp/wcs/stores/servlet/OHHybridSizeChartView?storeId=10151&catalogId=10091&langId=-13
+  sapSizeTableUrl: https://jsapps.c0fvjcwqut-ozdilekal1-d1-public.model-t.cc.commerce.ondemand.com/magaza/beden-tablosu
+  pdpShareUrl: https://ozwscdev8.ozdilekteyim.com/shop/tr
+  noImage: https://ozwscdev8.ozdilekteyim.com/wcsstore/OzdilekSAS/images/ozdilek/ortak/urun-resmi.png
+  videoIcon: images/attachments/usages/media_icon.jpg
+  shoppingBagId: 11800141

@@ -1,0 +1,15 @@
+# Loglanacak header parametreleri
+logconstants:
+  headervalues:
+    - appversion
+    - authorization
+    - devicebrand
+    - devicemodel
+    - osversion
+    - platform
+    - x-real-ip
+    - x-forwarded-for
+    - clientip
+    - username
+
+  elapsedTimeConstant: 6000

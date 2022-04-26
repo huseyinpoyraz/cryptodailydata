@@ -1,0 +1,316 @@
+# ERROR MESSAGES #
+errormessages:
+  authenticationCredentialsNotFoundException:
+    type: 2
+    title: Hata
+    content: "Yetkilendirme bilgileri hatalı (Rol): "
+    reason:
+    action:
+
+  notfoundexception:
+    type: 2
+    title: Hata
+    content: "Erişmeye çalıştığınız konum geçerli bir konum değildir: "
+    reason:
+    action:
+
+  headerexception:
+    type: 2
+    title: Hata
+    content: "Header parametresi eksiktir: "
+    reason:
+    action:
+
+  notreadableexception:
+    type: 2
+    title: Hata
+    content: "İstek Mesajı Okuma Hatası: "
+    reason:
+    action:
+
+  notsupportedmethodexception:
+    type: 2
+    title: Hata
+    content: "Desteklenmeyen Metod Hatası. Beklenen metod: "
+    reason:
+    action:
+
+  missingparameterexception:
+    type: 2
+    title: Hata
+    content: "Eksik Servlet Request parametresi: "
+    reason:
+    action:
+
+  modulenotfound:
+    type: 2
+    title: Hata
+    content: "Modül tipi eşleşmiyor, doğru modül tipini yazdığınızdan emin olun. Modül tipi: "
+    reason:
+    action:
+
+  mediatypenotsupported:
+    type: 2
+    title: Hata
+    content: "Desteklenmeyen Medya Türü: "
+    reason:
+    action:
+
+  forgotpasswordMsg:
+    type: 2
+    title: Hata
+    content: "E - posta mevcut değil."
+    reason:
+    action:
+
+  emptyFilterList:
+    type: 2
+    title: Hata
+    content: "Filtreleme Sonucu Boştur."
+    reason:
+    action:
+
+  methodArgumentNotValid:
+    type: 2
+    title: Hata
+    content: ""
+    reason:
+    action:
+
+  parseException:
+    type: 2
+    title: Hata
+    content: "Parse Hatası: "
+    reason:
+    action:
+
+  internalServerError:
+    type: 2
+    title: Hata
+    content: ""
+    reason:
+    action:
+
+  generalHttpClientError:
+    type: 2
+    title: Hata
+    content: "İstemci Hatası: "
+    reason:
+    action:
+
+  resourceAccessException:
+    type: 2
+    title: Hata
+    content: "Kaynak Erişim Hatası (Time out): "
+    reason:
+    action:
+
+  asyncCompletionException:
+    type: 2
+    title: Hata
+    content: ""
+    reason:
+    action:
+
+  nullPointerException:
+    type: 2
+    title: Hata
+    content: " Verisel bir problem oluştu (NPE)"
+    reason:
+    action:
+
+  generalException:
+    type: 2
+    title: Hata
+    content: "Bilinmeyen bir hata oluştu"
+    reason:
+    action:
+
+  asyncRequestTimeOutException:
+    type: 2
+    title: Hata
+    content: "İstek zaman aşımı: "
+    reason:
+    action:
+
+  vendorMessage:
+    type: 2
+    title: Hata
+    content:
+    reason:
+    action:
+
+  arrayIndexOutOfBoundException:
+    type: 2
+    title: Hata
+    content: "Dizi indis hatası: "
+    reason:
+    action:
+
+  noSuchStoreIdException:
+    type: 2
+    title: Hata
+    content: "Store Id hatalı"
+    reason:
+    action:
+
+  notEqualException:
+    type: 2
+    title: Hata
+    content: "Alan uyuşmazlığı: "
+    reason:
+    action:
+
+  numberFormatException:
+    type: 2
+    title: Hata
+    content: "Format Uyumsuzluğu: "
+    reason:
+    action:
+
+  promotionCodeError:
+    type: 2
+    title: Hata
+    content: Girdiğiniz promosyon kodu geçersizdir. Lütfen kontrol ederek tekrar deneyiniz.
+    reason:
+    action:
+
+  searchRelatedWordError:
+    type: 2
+    title: Hata
+    content: Aradığınız kelimeye uygun sonuç bulunamamıştır.
+    reason:
+    action:
+
+  searchByBarcodeError:
+    type: 2
+    title: Hata
+    content: Aradığınız barkod bilgisine uygun sonuç bulunamamıştır.
+    reason:
+    action:
+
+  httpStatusCodeError:
+    type: 2
+    title: Hata
+    content: Http hatası.
+    reason:
+    action:
+    
+  orderCopyError:
+    type: 2
+    title: Hata
+    content: Sipariş oluşturma sırasında bir hata ile karşılaşıldı. Lütfen sonra tekrar deneyiniz.
+    reason:
+    action:
+
+  searchNotFoundException:
+    type: 2
+    title: Hata
+    content: " ile ilgili sonuç bulunamadı."
+    reason:
+    action:
+
+  longBarcodeException:
+    type: 2
+    title: Hata
+    content: "Aradığınız barkod bilgisine uygun sonuç bulunamamıştır."
+    reason:
+    action:
+
+  addItemException:
+    type: 2
+    title: Hata
+    content: "Eklemek istediğiniz ürün sepete eklenemedi."
+    reason:
+    action:
+
+  jacksonMappingError:
+    type: 2
+    title: Hata
+    content: "Mapping Error"
+    reason:
+    action:
+
+  wrongLogonType:
+    type: 2
+    title: Hata
+    content: "Sosyal ağlara uymayan logon tip ile giriş yapıyorsunuz"
+    reason:
+    action:
+
+  maintenanceNotification:
+    type: 2
+    title: Hata
+    content: "Değerli Misafirimiz, uygulamamızda güncelleme yapılmaktadır. Anlayışınız için teşekkür ederiz."
+    reason:
+    action:
+
+  accessDeniedException:
+    type: 2
+    title: Hata
+    content: "Yetkisiz kullanıcı."
+    reason:
+    action:
+
+  illegalSearchTermException:
+    type: 2
+    title: Hata
+    content: " ile arama yapılamaz."
+    reason:
+    action:
+
+  shortSearchTermException:
+    type: 2
+    title: Hata
+    content: " metni arama kriterleri için kısadır."
+    reason:
+    action:
+
+  emptyStringException:
+    type: 2
+    title: Hata
+    content: "Kategori yada arama kriteri boş olamaz."
+    reason:
+    action:
+
+  tokenBadCredentials:
+    type: 2
+    title: Hata
+    content: "E - posta adresiniz ya da parolanız hatalıdır."
+    reason:
+    action:
+
+  serviceUnavailable:
+    type: 2
+    title: Hata
+    content: "Servislere ulaşılamıyor. (SAP)"
+    reason:
+    action:
+
+  badGateway:
+    type: 2
+    title: Hata
+    content: "Hatalı geçiş (Bad Gateway)"
+    reason:
+    action:
+
+  forbidden:
+    type: 2
+    title: Hata
+    content: "Erişim izni yoktur (403-Forbidden)"
+    reason:
+    action:
+
+  sameVersionError:
+    type: 2
+    title: Hata
+    content: "Girilen platform, version numarası ve uygulamaya göre bir version daha önceden girilmiştir. Lütfen bilgileri kontrol ediniz."
+    reason:
+    action:
+
+  noVcRecordFound:
+    type: 2
+    title: Hata
+    content: "İlgili kayıt bulunamamıştır."
+    reason:
+    action:

@@ -1,0 +1,12 @@
+# SUCCESS MESSAGES #
+# 1 Başarılı Toast mesaj
+# 2 Başarısız Toast mesaj
+# 3 Başarılı Pop-up mesaj
+# 4 Başarısız Pop-up mesaj
+# 5 Info Pop-up mesajı
+infomessages:
+  iptalConfirm:
+    type: 5
+    title: Bilgilendirme
+    content:
+    action:
