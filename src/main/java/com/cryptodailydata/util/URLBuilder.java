@@ -30,5 +30,17 @@ public class URLBuilder
     {
         return "https://firebase.coniun.io/functions/treasureHunt?boxIds=" + passId;
     }
+
+    public String getNftMetaDataByContracts(String contactId)
+    {
+        return "https://coniun.io/api/collections/search?q=" + contactId;
+    }
+
+    public String getNftAllDetailsBySlug(String slug)
+    {
+        return "https://api.opensea.io/api/v1/collection/" + slug;
+    }
+
+
 }
 

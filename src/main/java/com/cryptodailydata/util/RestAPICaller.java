@@ -1,6 +1,8 @@
 package com.cryptodailydata.util;
 
-import com.cryptodailydata.model.Coniun.ConiunCBoxModel;
+import com.cryptodailydata.model.Coniun.ConiunCBoxModel.ConiunCBoxModel;
+import com.cryptodailydata.model.Coniun.NFTAllDetailsModel.NFTAllDetailsDataMadel;
+import com.cryptodailydata.model.Coniun.NFTMetaDataModel.NFTMetaDataModel;
 import com.cryptodailydata.model.CryptoRankIO.CryptoRankIOModel;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
@@ -33,9 +35,25 @@ public class RestAPICaller implements IRestAPICaller
 
     public ResponseEntity<ConiunCBoxModel> getAllCboxesByPassId(int passId)
     {
-        //log.info("Pass ID: " + passId + " is checking..");
+      //  log.info("Pass ID: " + passId + " is checking..");
         setApiURL( urlBuilder.getAllCboxes(passId) );
         return getRestTemplate().getForEntity(getApiURL(), ConiunCBoxModel.class);
     }
+
+    public ResponseEntity<NFTMetaDataModel> getNftMetaDataByContracts(String contractId)
+    {
+       // log.info("Contract ID: " + contractId + " is checking..");
+        setApiURL( urlBuilder.getNftMetaDataByContracts(contractId));
+        return getRestTemplate().getForEntity(getApiURL(), NFTMetaDataModel.class);
+    }
+
+    public ResponseEntity<NFTAllDetailsDataMadel> getNftAllDetailsBySlug(String slug)
+    {
+      //  log.info("Pass ID: " + passId + " is checking..");
+        setApiURL( urlBuilder.getNftAllDetailsBySlug(slug));
+        return getRestTemplate().getForEntity(getApiURL(), NFTAllDetailsDataMadel.class);
+    }
+
+
 }
 

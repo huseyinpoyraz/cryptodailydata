@@ -1,5 +1,5 @@
 
-package com.cryptodailydata.model.Coniun;
+package com.cryptodailydata.model.Coniun.ConiunCBoxModel;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -68,6 +68,8 @@ public class Item {
     private Integer userId;
     @JsonProperty("discord_username")
     private String discordUsername;
+    @JsonProperty("floorPrice")
+    private String floorPrice;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
